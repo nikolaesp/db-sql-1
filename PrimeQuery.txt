@@ -1,0 +1,12 @@
+1. 	select * from teachers;
+2. 	select name, head_of_department from departments;
+3. 	select * from degrees where level='magistrale';
+4. 	select * from students where name='Marco';
+5. 	select * from courses where cfu>=12;
+6. 	select * from courses where cfu>10 or cfu<5;
+7. 	select * from courses where year=1;
+8. 	select * from courses where website  IS NULL;
+9.	select * from teachers where phone IS NOT NULL;
+10.	select * from students where name like 'E%';
+11.	select count(*) from students where name like 'E%';
+12.	select count(*) from teachers where phone IS NOT NULL;
